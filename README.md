@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # generator-meteor-react [![Build Status](https://secure.travis-ci.org/payner35/generator-meteor-react.png?branch=master)](https://travis-ci.org/payner35/generator-meteor-react)
 
 > [Yeoman](http://yeoman.io) generator
@@ -45,3 +46,7 @@ If you'd like to get to know Yeoman better and meet some of his friends, [Grunt]
 ## License
 
 MIT
+=======
+# meteor-react
+Yeoman generator for Meteor and React.js views
+>>>>>>> a9428a7a185c031cafe22caf3d93cb63c9b1a28b
