@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# generator-meteor-react [![Build Status](https://secure.travis-ci.org/payner35/generator-meteor-react.png?branch=master)](https://travis-ci.org/payner35/generator-meteor-react)
+# generator-meteor-react
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -35,6 +35,32 @@ Finally, initiate the generator:
 ```bash
 yo meteor-react
 ```
+
+
+To add a View:
+
+```bash
+yo meteor-react:view [yourViewName]
+```
+
+To add a Collection:
+
+```bash
+yo meteor-react:collection [yourCollectionName]
+```
+
+To add a React component:
+
+```bash
+yo meteor-react:component [yourComponentName]
+```
+
+
+### Why React components with Meteor?
+
+Because it's easier to port a Meteor prototype to an enterprise CMS such as Sitecore, AEM or Backbase using React components.. React.js provides a common separation of the View that can be almost dropped onto another implementation
+
+
 
 ### Getting To Know Yeoman
 
