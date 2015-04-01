@@ -33,8 +33,12 @@ npm install -g generator-meteor-react
 Finally, initiate the generator:
 
 ```bash
+mkdir myAmazingApp
+cd myAmazingApp
 yo meteor-react
+sh startup.sh
 ```
+
 
 
 To add a View:
