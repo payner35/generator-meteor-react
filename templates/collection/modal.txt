@@ -1,0 +1,1 @@
+<%= classedName %> = new Meteor.Collection('<%= fileName %>');

@@ -1,0 +1,34 @@
+{
+  "name": "generator-meteor-react",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "payner35/generator-meteor-react",
+  "author": {
+    "name": "Gavin Payne",
+    "email": "",
+    "url": "https://github.com/payner35"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.9",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2",
+    "ast-query": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}

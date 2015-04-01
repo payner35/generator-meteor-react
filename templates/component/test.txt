@@ -1,0 +1,45 @@
+
+/**
+ * This directive is necessary to enable prepossessing of JSX tags:
+ * @jsx React.DOM
+ */
+
+
+var <%= classedName %> = ReactMeteor.createClass({
+
+  // Specifying a templateName property allows the component to be
+  // interpolated into a Blaze template just like any other template:
+  // {{> <%= classedName %> x=1 y=2}}. This corresponds to the JSX expression
+  // <<%= classedName %> x={1} y={2} />.
+  templateName: "<%= classedName %>",
+
+  getInitialState: function() {
+    return {};
+  },
+
+  startMeteorSubscriptions: function() {
+     //Meteor.subscribe("someCollection");
+  },
+
+  getMeteorState: function() {
+    return {};
+  },
+
+  render: function() {
+    return (
+        <div className="commentBox">
+          Hello, world! I am a "<%= classedName %>" component.
+        </div>
+    );
+  }
+
+
+});
+
+
+
+
+
+
+
+
