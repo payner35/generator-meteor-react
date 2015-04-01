@@ -26,6 +26,16 @@ ViewGenerator.prototype.createViewFiles = function createViewFiles() {
   }
 
 
+
+  console.log(this.templatePath('view.coffee'));
+  console.log(this.destinationPath(
+    path.join(
+      'client/views',
+      this.name.toLowerCase(),
+      this.name.toLowerCase() + '.coffee')
+  ));
+
+
   this.fs.copyTpl(
     this.templatePath('view.coffee'),
     this.destinationPath(
