@@ -1,6 +1,6 @@
 {
   "name": "generator-meteor-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yeoman generator for Meteor with some Angular.js views",
   "keywords": [
     "yeoman-generator",
