@@ -1,13 +1,22 @@
 {
   "name": "generator-meteor-react",
-  "version": "0.0.0",
-  "description": "Yeoman generator",
+  "version": "0.0.1",
+  "description": "Yeoman generator for Meteor with some Angular.js views",
+  "keywords": [
+    "yeoman-generator",
+    "scaffold",
+    "framework",
+    "component",
+    "front-end",
+    "app",
+    "meteor"
+  ],
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "payner35/generator-meteor-react",
+  "repository": "payner35/meteor-react",
   "author": {
     "name": "Gavin Payne",
-    "email": "",
+    "email": "gavinapayne@gmail.com",
     "url": "https://github.com/payner35"
   },
   "engines": {
