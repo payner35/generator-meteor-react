@@ -33,7 +33,7 @@ npm install -g generator-meteor-react
 Finally, initiate the generator:
 
 ```bash
-mkdir myAmazingApp
+meteor create myAmazingApp
 cd myAmazingApp
 yo meteor-react
 sh startup.sh

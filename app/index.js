@@ -29,7 +29,6 @@ module.exports = yeoman.generators.Base.extend({
 
   writing: {
     app: function () {
-      this.mkdir(".meteor");
       this.mkdir("config");
       this.mkdir("client");
       this.mkdir("client/lib");
@@ -52,7 +51,6 @@ module.exports = yeoman.generators.Base.extend({
 
     projectfiles: function () {
       this.copy('startup.sh', 'startup.sh');
-      this.copy('.meteor/release', '.meteor/release');
       this.copy('config/settings.json', 'config/settings.json');
       this.copy('client/lib/layout/layoutFull.html', 'client/lib/layout/layoutFull.html');
       this.copy('client/lib/meteor/router.coffee', 'client/lib/meteor/router.coffee');
