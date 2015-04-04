@@ -65,7 +65,15 @@ yo meteor-react:component [yourComponentName]
 
 ### Why React components with Meteor?
 
+Because React.js is cool and worth learning
+
+
 Because it's easier to port a Meteor prototype to an enterprise CMS such as Sitecore, AEM or Backbase using React components.. React.js provides a common separation of the View that can be almost dropped onto another implementation
+
+
+### Some example React magic comes with the default setup
+
+You will find a sample component "Topnav" comes with the default setup. This is just to demonstrate how a basic react component is set up and implemented. It's directly wired up to pull from the 'navigation' collection. And is added via the master layout.
 
 
 
@@ -82,4 +90,3 @@ MIT
 =======
 # meteor-react
 Yeoman generator for Meteor and React.js views
->>>>>>> a9428a7a185c031cafe22caf3d93cb63c9b1a28b
