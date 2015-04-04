@@ -40,7 +40,9 @@ module.exports = yeoman.generators.Base.extend({
       this.mkdir("client/views/404");
       this.mkdir("client/views/loading");
       this.mkdir("client/views/home");
+      this.mkdir("client/views/about");
       this.mkdir("client/components");
+      this.mkdir("client/components/topnav");
       this.mkdir("collections");
       this.mkdir("collections/modals");
       this.mkdir("server");
@@ -62,9 +64,13 @@ module.exports = yeoman.generators.Base.extend({
       this.copy('client/views/home/home.coffee', 'client/views/home/home.coffee');
       this.copy('client/views/home/home.html', 'client/views/home/home.html');
       this.copy('client/views/home/home.styl', 'client/views/home/home.styl');
+      this.copy('client/views/about/about.coffee', 'client/views/about/about.coffee');
+      this.copy('client/views/about/about.html', 'client/views/about/about.html');
+      this.copy('client/views/about/about.styl', 'client/views/about/about.styl');
       this.copy('collections/modals/navigation.js', 'collections/modals/navigation.js');
       this.copy('server/lib/startup.coffee', 'server/lib/startup.coffee');
       this.copy('server/publish/navigation.js', 'server/publish/navigation.js');
+      this.copy('components/topnav/topnav.jsx', 'components/topnav/topnav.jsx');
     },
 
     mainFile: function(){

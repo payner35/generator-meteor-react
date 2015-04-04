@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # generator-meteor-react
 
 > [Yeoman](http://yeoman.io) generator
@@ -35,6 +35,9 @@ Finally, initiate the generator:
 ```bash
 meteor create myAmazingApp
 cd myAmazingApp
+
+you can delete the default .html, js & css files
+
 yo meteor-react
 sh startup.sh
 ```
